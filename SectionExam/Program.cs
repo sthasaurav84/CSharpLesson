@@ -40,7 +40,7 @@ namespace SectionExam
             Console.Clear();
             while (moreInput)
             {
-                Console.Write("\nInput any number between 0 and 10 (-1 to stop): ");
+                Console.Write("\nInput any numbers between 0 and 10 (-1 to stop): ");
                 stringInput = Console.ReadLine();
 
                 // Tests to to make sure an integer is entered
@@ -81,7 +81,7 @@ namespace SectionExam
                     Console.WriteLine("{0,5}{1,10}", x, entries[x]);
                 }
             }
-            Console.WriteLine("\nNumber of Valid Entries: {0}", cntOfValidEntries);
+            Console.WriteLine("\nNumber of Valid Entries is: {0}", cntOfValidEntries);
 
             Console.WriteLine("\nNumber of Values Entered Outside Acceptable Range: {0}", numberOutsideRange);
             Console.WriteLine("Number of Non-numeric Values Entered: {0}", cntOfInvalidEntries);
