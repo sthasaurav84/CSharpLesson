@@ -9,6 +9,7 @@ namespace Section12
     {
         //In this exam, you must make the 2 tests below pass without changing a single line of code in the tests.
         //You basically need to fix all of the compilation errors and make the tests pass, without touching the tests.
+        //Adding comment to test the github
         [TestMethod]
         public void TestMethod1()
         {
