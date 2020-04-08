@@ -21,7 +21,7 @@ namespace HelloWorld
                               " and you are " + age + " years old";
             response = $"Your name is: {userFirstname} and you are {age} years old";
             Console.WriteLine(response);
-
+            Console.WriteLine("Testing GITHUB commit");
 
             //FORMATTING TEST FOR OUTPUT
             //double pricePerOunce = 17.36;
