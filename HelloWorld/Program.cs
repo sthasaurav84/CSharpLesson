@@ -8,6 +8,7 @@ namespace HelloWorld
         {
             string userFirstname;
             string age;
+            string address;
 
             //ask the user their name
             Console.WriteLine("What is your first name?");
@@ -17,11 +18,16 @@ namespace HelloWorld
             Console.WriteLine("How old are you?");
             age = Console.ReadLine();
 
+            //ask the address
+            Console.WriteLine("What is your address?");
+            address = Console.ReadLine();
+
             string response = "Your name is: " + userFirstname + 
-                              " and you are " + age + " years old";
-            response = $"Your name is: {userFirstname} and you are {age} years old";
+                              " and you are " + age + " years old" + "Your address is: " + address;
+            response = $"Your name is: {userFirstname} and you are {age} years old and Your address is: {address}";
             Console.WriteLine(response);
-            Console.WriteLine("Testing GITHUB commit");
+            
+
 
             //FORMATTING TEST FOR OUTPUT
             //double pricePerOunce = 17.36;
