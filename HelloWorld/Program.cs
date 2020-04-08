@@ -24,7 +24,7 @@ namespace HelloWorld
 
             string response = "Your name is: " + userFirstname + 
                               " and you are " + age + " years old" + "Your address is: " + address;
-            response = $"Your name is: {userFirstname} and you are {age} years old and Your address is: {address}";
+            response = $"Your name is: {userFirstname} and you are {age} years old and Your address is {address}";
             Console.WriteLine(response);
             
 
