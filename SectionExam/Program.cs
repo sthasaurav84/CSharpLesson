@@ -70,7 +70,7 @@ namespace SectionExam
         {
             int cntOfValidEntries = 0;
             Console.Clear();
-            Console.WriteLine("\tInput Data App\n");
+            Console.WriteLine("\tInput Data in the App\n");
             Console.WriteLine("{0,-12}{1,-6}", "InputValue", "Count");
 
             for (int x = 0; x < 11; x++)
@@ -83,7 +83,7 @@ namespace SectionExam
             }
             Console.WriteLine("\nNumber of Valid Entries is: {0}", cntOfValidEntries);
 
-            Console.WriteLine("\nNumber of Values Entered Outside Acceptable Range: {0}", numberOutsideRange);
+            Console.WriteLine("\nNumber of Values that is Entered Outside Acceptable Range: {0}", numberOutsideRange);
             Console.WriteLine("Number of Non-numeric Values Entered: {0}", cntOfInvalidEntries);
             Console.WriteLine("Total Number of Inputs: {0}", (cntOfInvalidEntries + cntOfValidEntries + numberOutsideRange));
 
